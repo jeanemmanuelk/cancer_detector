@@ -10,7 +10,7 @@ The machine learning model used in this project is a logistic regression classif
 ## Web Application
 The Flask web application allows the user to input values for the features of a breast tumor, and returns a prediction of whether the tumor is malignant or benign. The user interface was created using HTML/CSS and Bootstrap.
 
-Installation
+## Installation
 To run the project on your local machine, follow these steps:
 
 Clone the repository: git clone https://github.com/jeanemmanuelk/cancer_detector
