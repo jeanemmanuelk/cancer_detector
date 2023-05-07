@@ -2,7 +2,7 @@
 This is a machine learning project that predicts whether a breast tumor is malignant or benign based on various features. The project is built using Python and the scikit-learn library, and is deployed as a Flask web application.
 
 ## Data
-The data used in this project is the Breast Cancer Wisconsin (Diagnostic) Dataset, which can be found in the scikit-learn library. The dataset contains 569 instances and 30 features.
+The data used in this project is the Breast Cancer (Diagnostic) Dataset, which can be found on Kaggle using this link (https://www.kaggle.com/datasets/erdemtaha/cancer-data?select=Cancer_Data.csv). The dataset contains 569 rows and 32 columns.
 
 ## Model
 The machine learning model used in this project is a logistic regression classifier, trained on the Breast Cancer Wisconsin dataset. The model achieved an accuracy of 97% on the test set.
