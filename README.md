@@ -13,10 +13,10 @@ The Flask web application allows the user to input values for the features of a 
 ## Installation
 To run the project on your local machine, follow these steps:
 
-Clone the repository: git clone https://github.com/jeanemmanuelk/cancer_detector
-Install the required packages: pip install -r requirements.txt
-Run the Flask application: python app.py
-Open your web browser and go to http://localhost:8000
-Credits
+- Clone the repository: git clone https://github.com/jeanemmanuelk/cancer_detector
+- Install the required packages: pip install -r requirements.txt
+- Run the Flask application: python app.py
+- Open your web browser and go to http://localhost:8000
+## Credits
 This project was created by Jean-Emmanuel Kouadio. The code for the machine learning model was adapted from the scikit-learn documentation, and the user interface was adapted from Bootstrap examples.
  
