@@ -5,7 +5,9 @@ This is a machine learning project that predicts whether a breast tumor is malig
 The data used in this project is the Breast Cancer (Diagnostic) Dataset, which can be found on Kaggle using this link (https://www.kaggle.com/datasets/erdemtaha/cancer-data?select=Cancer_Data.csv). The dataset contains 569 rows and 32 columns.
 
 ## Model
-The machine learning model used in this project is a logistic regression classifier, trained on the Breast Cancer Wisconsin dataset. The model achieved an accuracy of 97% on the test set.
+The machine learning model used in this project is a logistic regression classifier, trained on the Breast Cancer Wisconsin dataset. The model achieved an accuracy of 97.4% on the test set, using 7 of the dataset's features (concave points, perimeter, radius and area measurements) in a scaling + logistic regression pipeline.
+
+This is a learning project. It is trained on a single small dataset (569 rows) and should never be used to make medical decisions.
 
 ## Web Application
 The Flask web application allows the user to input values for the features of a breast tumor, and returns a prediction of whether the tumor is malignant or benign. The user interface was created using HTML/CSS and Bootstrap.
